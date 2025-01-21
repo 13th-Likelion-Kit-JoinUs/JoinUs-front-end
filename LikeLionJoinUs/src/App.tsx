@@ -1,7 +1,11 @@
+import AppRoutes from './common/utils/AppRoutes';
 
 function App() {
-
-  return <>hello</>;
+	return (
+		<>
+			<AppRoutes />
+		</>
+	);
 }
 
 export default App;
