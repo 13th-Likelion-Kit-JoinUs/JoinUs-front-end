@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "PF스타더스트";
+  src: url("assets/fonts/PF스타더스트 3.0.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
