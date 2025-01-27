@@ -39,7 +39,7 @@ const Home = () => {
 				</div>
 			</div>
 			<div className="flex justify-center">
-				<TextBoard />
+				<TextBoard text="멋쟁이사자처럼 동아리에서 초대장을 보내왔다!!" />
 			</div>
 		</div>
 	);
