@@ -4,7 +4,7 @@ type QuestionProps = {
 	data: string;
 };
 
-const Question: React.FC<QuestionProps> = ({ data }) => {
+const Question = ({ data }: QuestionProps): JSX.Element => {
 	return (
 		<div className="m-3 text-[15px]">
 			<h1>{data}</h1>

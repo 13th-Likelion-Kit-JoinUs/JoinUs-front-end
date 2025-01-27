@@ -5,7 +5,7 @@ type PalmInfo = {
 	progressNum: number;
 };
 
-const Palms: React.FC<PalmInfo> = ({ progressNum }) => {
+const Palms = ({ progressNum }: PalmInfo): JSX.Element => {
 	const palms = Array.from({ length: 10 }).map((_, index) => {
 		const isOdd = index % 2 === 1;
 		return (

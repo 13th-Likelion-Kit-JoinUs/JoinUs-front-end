@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ResultPage: React.FC = () => {
+const ResultPage = () => {
 	return (
 		<div>
 			<h1>ResultPage입니다.</h1>
