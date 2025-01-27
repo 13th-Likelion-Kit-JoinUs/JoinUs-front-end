@@ -22,27 +22,27 @@ const Home = () => {
 					<div className="text-2xl">유형 테스트</div>
 				</div>
 				<div className="flex justify-center m-8">
-					<Link to="/test">
-						<div className="bg-[url('public/assets/img/ballon_box.png')] w-[97px] h-[112px] bg-cover flex flex-col items-center justify-center pb-4">
+					<Link to="/question">
+						<div className="bg-[url('assets/img/ballon_box.png')] w-[97px] h-[112px] bg-cover flex flex-col items-center justify-center pb-4">
 							<div className="text-[9px]">
 								나는 어떤 <br />
 								아기사자가 될까?
 							</div>
-							<div className="bg-[url('public/assets/img/start_button.png')] w-[61px] h-[20px] bg-cover text-[9px] m-1 text-center bg-bl text-white flex flex-row items-center justify-center">
-								<span className="bg-[url('public/assets/img/right_arrow_white.png')] w-[7px] h-[10px] bg-cover mr-1"></span>
+							<div className="bg-[url('assets/img/start_button.png')] w-[61px] h-[20px] bg-cover text-[9px] m-1 text-center bg-bl text-white flex flex-row items-center justify-center">
+								<span className="bg-[url('assets/img/right_arrow_white.png')] w-[7px] h-[10px] bg-cover mr-1"></span>
 								<span>테스트</span>
 							</div>
 						</div>
 					</Link>
-					<div className="bg-[url('public/assets/img/main_lion.png')] w-[130px] h-[170px] bg-cover"></div>
+					<div className="bg-[url('assets/img/main_lion.png')] w-[130px] h-[170px] bg-cover"></div>
 				</div>
 			</div>
 			<div className="flex justify-center">
-				<div className="bg-[url('public/assets/img/ballon_wide.png')] w-[280px] h-[90px] bg-cover flex flex-row items-center justify-around">
+				<div className="bg-[url('assets/img/ballon_wide.png')] w-[280px] h-[90px] bg-cover flex flex-row items-center justify-around">
 					<div className="text-[15px] w-[185px] h-[40px]">
 						멋쟁이사자처럼 동아리에서 초대장을 보내왔다!
 					</div>
-					<span className="bg-[url('public/assets/img/right_arrow_black.png')] rotate-90 w-[7px] h-[10px] bg-cover ml-2 mt-6"></span>
+					<span className="bg-[url('assets/img/right_arrow_black.png')] rotate-90 w-[7px] h-[10px] bg-cover ml-2 mt-6"></span>
 				</div>
 			</div>
 		</div>
