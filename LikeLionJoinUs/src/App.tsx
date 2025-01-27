@@ -3,9 +3,9 @@ import './index.css';
 
 function App() {
 	return (
-		<>
+		<div className="font-NeoDunggeunmoPro">
 			<AppRoutes />
-		</>
+		</div>
 	);
 }
 
