@@ -5,7 +5,7 @@ type message = {
 	onClick: () => void;
 };
 
-const ChoiceBoard: React.FC<message> = ({ data, onClick }) => {
+const ChoiceBoard = ({ data, onClick }: message): JSX.Element => {
 	return (
 		<div
 			className="bg-[url('assets/img/ballon_wide.png')] w-[300px] h-[100px] bg-cover flex flex-row items-center justify-center"

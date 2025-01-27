@@ -21,7 +21,7 @@ type Question = {
 	choices: Choice[];
 };
 
-const QuestionPage: React.FC = () => {
+const QuestionPage = () => {
 	const navigate = useNavigate();
 	const [questions, setQuestions] = useState<Question[]>([]);
 	const [currentStep, setCurrentStep] = useState(0);

@@ -4,7 +4,7 @@ type textProps = {
 	text: string;
 };
 
-const TextBoard: React.FC<textProps> = ({ text }) => {
+const TextBoard = ({ text }: textProps): JSX.Element => {
 	return (
 		<div className="bg-[url('assets/img/ballon_wide.png')] w-[280px] h-[90px] bg-cover flex flex-row items-center justify-around">
 			<div className="text-[15px] w-[185px] h-[40px]">{text} </div>

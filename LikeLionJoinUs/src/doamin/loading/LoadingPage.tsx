@@ -2,7 +2,7 @@ import React from 'react';
 import TextBoard from '../home/components/TextBoard';
 import { useNavigate } from 'react-router-dom';
 
-const LoadingPage: React.FC = () => {
+const LoadingPage = () => {
 	const navigate = useNavigate();
 	setTimeout(() => {
 		navigate('/result');
