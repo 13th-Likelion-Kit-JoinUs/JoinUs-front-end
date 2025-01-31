@@ -10,17 +10,16 @@ export default function BarChart({ scores }: BarChartProps) {
     { name: "창의력", score: scores[3] },
   ];
 
-  console.log(categories);
   const maxScore = 5;
 
   return (
-    <div>
+    <div className="my-4 flex flex-col items-center">
       {categories.map((category, index) => (
         <div key={index} className="mb-3 flex items-center">
           <span className="block font-bold text-gray-800 mr-2">
             {category.name}
           </span>
-          <div className="flex space-x-1  border-2 border-black  rounded-md p-1">
+          <div className="flex justify-center space-x-1 border-2 border-black rounded-md p-1">
             {Array.from({ length: maxScore }).map((_, idx) => (
               <div
                 key={idx}
