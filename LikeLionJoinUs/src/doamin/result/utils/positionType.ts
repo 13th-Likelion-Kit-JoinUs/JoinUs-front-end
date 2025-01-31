@@ -11,3 +11,12 @@ export const PositionImage = [
   "/assets/img/frontend_lion.png",
   "/assets/img/backend_lion.png",
 ];
+
+export const PositionWish = [
+  "PM이 되려면...",
+  "UIUX DESIGNER가 되려면...",
+  "FRONTEND 개발자가 되려면...",
+  "BACKEND 개발자가 되려면...",
+];
+
+export const Position = ["기획", "다자인", "프론트엔드", "백엔드"];
