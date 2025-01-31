@@ -10,6 +10,7 @@ import {
   PositionWish,
 } from "./utils/positionType";
 import { BluePalmUp } from "./components/BluePalmUp";
+import { handleShareClick } from "./hook/HandleShareClick";
 
 const ResultPage = () => {
   const [searchParams] = useSearchParams();
@@ -162,6 +163,7 @@ const ResultPage = () => {
                 src="/assets/img/right_btn.png"
                 alt="Right Button"
                 className="w-1/2 h-full object-cover"
+                onClick={handleShareClick}
               />
             </div>
 
