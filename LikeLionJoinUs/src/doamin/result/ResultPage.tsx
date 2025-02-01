@@ -25,6 +25,9 @@ const ResultPage = () => {
 	// 최고, 최저 점수 찾기
 	const maxIndex = scores.indexOf(Math.max(...scores)) + 1;
 	const minIndex = scores.indexOf(Math.min(...scores)) + 1;
+	console.log(scores);
+	console.log(`max : ${maxIndex}`);
+	console.log(`min : ${minIndex}`);
 
 	const [data, setData] = useState<PositionData | null>(null);
 	const [loading, setLoading] = useState<boolean>(true);
