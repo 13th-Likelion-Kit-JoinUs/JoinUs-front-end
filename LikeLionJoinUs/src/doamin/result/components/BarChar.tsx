@@ -1,5 +1,5 @@
 interface BarChartProps {
-  scores: [number, number, number, number]; // 4개의 점수를 받는 배열
+  scores: [number, number, number, number];
 }
 
 export default function BarChart({ scores }: BarChartProps) {
@@ -13,10 +13,10 @@ export default function BarChart({ scores }: BarChartProps) {
   const maxScore = 5;
 
   return (
-    <div className="my-4 flex flex-col items-center">
+    <div className="my-8 flex flex-col items-center">
       {categories.map((category, index) => (
         <div key={index} className="mb-3 flex items-center">
-          <span className="block font-bold text-gray-800 mr-2">
+          <span className="block font-bold text-gray-800 mr-3">
             {category.name}
           </span>
           <div className="flex justify-center space-x-1 border-2 border-black rounded-md p-1">
