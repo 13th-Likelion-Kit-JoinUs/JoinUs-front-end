@@ -6,10 +6,10 @@ export const PositionComment = [
 ];
 
 export const PositionImage = [
-	'/assets/img/PM_lion.png',
-	'/assets/img/backend_lion.png',
-	'/assets/img/frontend_lion.png',
-	'/assets/img/desinger_lion.png',
+	'/~s20231073/assets/img/PM_lion.png',
+	'/~s20231073/assets/img/backend_lion.png',
+	'/~s20231073/assets/img/frontend_lion.png',
+	'/~s20231073/assets/img/desinger_lion.png',
 ];
 
 export const PositionWish = [

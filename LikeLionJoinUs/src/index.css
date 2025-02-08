@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "PF스타더스트";
-  src: url("assets/fonts/PF스타더스트 3.0.ttf") format("truetype");
+  src: url("/~s20231073/assets/fonts/PF스타더스트 3.0.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -15,6 +15,6 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url("./assets/fonts/NeoDunggeunmoPro-Regular.woff") format("woff");
+    src: url("/~s20231073/assets/fonts/NeoDunggeunmoPro-Regular.woff") format("woff");
   }
 }
