@@ -26,7 +26,7 @@ const Home = () => {
 			<div className="flex justify-center m-8">
 				<Link to="/question">
 					<div className="bg-[url('assets/img/ballon_box.png')] w-[7rem] h-[8rem] bg-cover flex flex-col items-center justify-center pb-4">
-						<div className="text-[0.2em]">
+						<div className="text-[0.6rem]">
 							나는 어떤 <br />
 							아기사자가 될까?
 						</div>
