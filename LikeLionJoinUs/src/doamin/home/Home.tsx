@@ -8,7 +8,7 @@ const Home = () => {
 				<div className="flex justify-center items-center mt-10 mb-6">
 					<img
 						className="w-[4rem] h-[0.5rem]"
-						src="/assets/img/likelion_logo.png"
+						src="/~s20231073/assets/img/likelion_logo.png"
 						alt="logo"
 					/>
 				</div>
@@ -25,18 +25,18 @@ const Home = () => {
 			</div>
 			<div className="flex justify-center m-8">
 				<Link to="/question">
-					<div className="bg-[url('assets/img/ballon_box.png')] w-[8rem] h-[9rem] bg-cover flex flex-col items-center justify-center pb-4">
-						<div className="text-[0.8em]">
+					<div className="bg-[url('/~s20231073/assets/img/ballon_box.png')] w-[7rem] h-[8rem] bg-cover flex flex-col items-center justify-center pb-4">
+						<div className="text-[0.2em]">
 							나는 어떤 <br />
 							아기사자가 될까?
 						</div>
-						<div className="bg-[url('assets/img/start_button.png')] w-[4rem] h-[1.4rem] bg-contain text-[0.6em] m-1 text-center bg-bl text-white flex flex-row items-center justify-center">
-							<span className="bg-[url('assets/img/right_arrow_white.png')] w-[0.4rem] h-[0.4rem] bg-cover mr-1"></span>
+						<div className="bg-[url('/~s20231073/assets/img/start_button.png')] w-[4rem] h-[1.4rem] bg-contain text-[0.6em] m-1 text-center bg-bl text-white flex flex-row items-center justify-center">
+							<span className="bg-[url('/~s20231073/assets/img/right_arrow_white.png')] w-[0.4rem] h-[0.4rem] bg-cover mr-1"></span>
 							<span>테스트</span>
 						</div>
 					</div>
 				</Link>
-				<div className="bg-[url('assets/img/main_lion.png')] w-[10rem] h-[14rem] bg-cover"></div>
+				<div className="bg-[url('/~s20231073/assets/img/main_lion.png')] w-[10rem] h-[14rem] bg-cover"></div>
 			</div>
 			<div className="flex justify-center">
 				<Link to="/question">

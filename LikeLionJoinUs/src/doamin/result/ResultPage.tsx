@@ -76,7 +76,7 @@ const ResultPage = () => {
 						<div className="flex flex-col items-center justify-center -mt-2">
 							{/* 말풍선 */}
 							<div
-								className="bg-[url('/assets/img/balloon_box.png')] w-full max-w-[80%] h-[70px] bg-contain bg-no-repeat bg-center 
+								className="bg-[url('/~s20231073/assets/img/balloon_box.png')] w-full max-w-[80%] h-[70px] bg-contain bg-no-repeat bg-center 
                 flex flex-col items-center justify-center pb-2 mt-7 -mb-5"
 							>
 								<div className="text-[11px] mb-4">
@@ -100,7 +100,7 @@ const ResultPage = () => {
 						<div className="ml-2 mt-2">
 							{data.abilities.map((ability, index) => (
 								<div key={index} className="relative grid pl-4 mb-2">
-									<span className="absolute left-0 top-0 bg-[url('/assets/img/right_arrow_black.png')] w-[7px] h-[10px] bg-cover mt-1" />
+									<span className="absolute left-0 top-0 bg-[url('/~s20231073/assets/img/right_arrow_black.png')] w-[7px] h-[10px] bg-cover mt-1" />
 									<span className="text-[15px] leading-tight break-words">
 										{ability}
 									</span>
@@ -111,19 +111,19 @@ const ResultPage = () => {
 						<BluePalmUp text={PositionWish[maxIndex - 1]} />
 						<div className="ml-2 mt-2">
 							<div className="relative grid pl-4 mb-2">
-								<span className="absolute left-0 top-0 bg-[url('/assets/img/right_arrow_black.png')] w-[7px] h-[10px] bg-cover mt-1" />
+								<span className="absolute left-0 top-0 bg-[url('/~s20231073/assets/img/right_arrow_black.png')] w-[7px] h-[10px] bg-cover mt-1" />
 								<span className="text-[15px] leading-tight break-words">
 									툴: {data.tools.join(', ')}
 								</span>
 							</div>
 							<div className="relative grid pl-4 mb-2">
-								<span className="absolute left-0 top-0 bg-[url('/assets/img/right_arrow_black.png')] w-[7px] h-[10px] bg-cover mt-1" />
+								<span className="absolute left-0 top-0 bg-[url('/~s20231073/assets/img/right_arrow_black.png')] w-[7px] h-[10px] bg-cover mt-1" />
 								<span className="text-[15px] leading-tight break-words">
 									역량:{data.knowledge.join(', ')}
 								</span>
 							</div>
 							<div className="relative grid pl-4 mb-2">
-								<span className="absolute left-0 top-0 bg-[url('/assets/img/right_arrow_black.png')] w-[7px] h-[10px] bg-cover mt-1" />
+								<span className="absolute left-0 top-0 bg-[url('/~s20231073/assets/img/right_arrow_black.png')] w-[7px] h-[10px] bg-cover mt-1" />
 								<span className="text-[15px] leading-tight break-words">
 									기술: {data.skills.join(', ')}
 								</span>
@@ -135,7 +135,7 @@ const ResultPage = () => {
 							<div>
 								<BluePalmUp text={'나랑 안맞는 트랙?'} />
 								<div className="relative grid pl-4 mb-2 ml-2 mt-2">
-									<span className="absolute left-0 top-0 bg-[url('/assets/img/right_arrow_black.png')] w-[7px] h-[10px] bg-cover mt-1" />
+									<span className="absolute left-0 top-0 bg-[url('/~s20231073/assets/img/right_arrow_black.png')] w-[7px] h-[10px] bg-cover mt-1" />
 									<span className="text-[15px] leading-tight break-words">
 										{Position[minIndex - 1]}형 아기사자
 									</span>
@@ -157,12 +157,12 @@ const ResultPage = () => {
 
 						<div className="flex justify-between w-full">
 							<img
-								src="/assets/img/left_btn.png"
+								src="/~s20231073/assets/img/left_btn.png"
 								alt="Left Button"
 								className="w-1/2 h-full object-cover"
 							/>
 							<img
-								src="/assets/img/right_btn.png"
+								src="/~s20231073/assets/img/right_btn.png"
 								alt="Right Button"
 								className="w-1/2 h-full object-cover"
 								onClick={handleShareClick}
@@ -171,7 +171,7 @@ const ResultPage = () => {
 
 						<div className="flex justify-center items-center my-5">
 							<img
-								src="/assets/img/likelion_logo.png"
+								src="/~s20231073/assets/img/likelion_logo.png"
 								alt="멋사 로고"
 								className="w-1/4 h-auto object-cover"
 							/>
