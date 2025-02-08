@@ -46,7 +46,7 @@ const ResultPage = () => {
 				// }
 				// setData(result);
 
-				setData(resultDummyData);
+				setData(resultDummyData[maxIndex - 1]);
 			} catch (err) {
 				setError(err instanceof Error ? err.message : '알 수 없는 오류 발생');
 			} finally {
