@@ -4,7 +4,7 @@ import Palms from './components/Pamls';
 import useQuestionState from './utils/useQuestionState';
 
 const QuestionPage = () => {
-	const { questions, currentStep, answers, handleChoices } = useQuestionState();
+	const { questions, currentStep, handleChoices } = useQuestionState();
 
 	if (!questions.length) {
 		return <div>로딩 중....</div>;

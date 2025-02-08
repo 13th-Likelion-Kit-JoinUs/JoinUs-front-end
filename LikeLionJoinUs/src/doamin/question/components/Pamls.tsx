@@ -1,4 +1,3 @@
-import React from 'react';
 import { BluePalm, GrayPalm } from './Palm';
 
 type PalmInfo = {

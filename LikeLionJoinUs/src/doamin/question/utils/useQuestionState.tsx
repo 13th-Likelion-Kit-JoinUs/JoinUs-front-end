@@ -23,6 +23,12 @@ export default function useQuestionState() {
 	const [questions, setQuestions] = useState<Question[]>([]);
 	const [currentStep, setCurrentStep] = useState(0);
 	const [answers, setAnswers] = useState<Choice[]>([]);
+	const totalScore = {
+		scorePlanning: 0,
+		scoreDesign: 0,
+		scoreFront: 0,
+		scoreBack: 0,
+	};
 
 	useEffect(() => {
 		setQuestions(questionDummyData);
@@ -33,11 +39,30 @@ export default function useQuestionState() {
 		newAnswers[props.id] = props;
 		setAnswers(newAnswers);
 		if (currentStep + 1 === 10) {
-			navigate('/loading');
+			navigate('/loading', {
+				state: {
+					value: {
+						scorePlanning: totalScore.scorePlanning,
+						scoreDesign: totalScore.scoreDesign,
+						scoreFront: totalScore.scoreFront,
+						scoreBack: totalScore.scoreBack,
+					},
+				},
+			});
 		} else {
 			setCurrentStep(currentStep + 1);
 		}
 	};
+
+	const calculateScore = (props: Choice[]) => {
+		props.forEach((answer) => {
+			totalScore.scorePlanning += answer.scorePlanning;
+			totalScore.scoreDesign += answer.scoreDesign;
+			totalScore.scoreFront += answer.scoreFront;
+			totalScore.scoreBack += answer.scoreBack;
+		});
+	};
+	calculateScore(answers);
 
 	return { questions, currentStep, answers, handleChoices };
 }
