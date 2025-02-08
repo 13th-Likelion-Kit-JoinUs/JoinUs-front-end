@@ -12,6 +12,13 @@ export const PositionImage = [
 	'/~s20231073/assets/img/desinger_lion.png',
 ];
 
+export const PositionWord = [
+	'/~s20231073/assets/img/PM_word.png',
+	'/~s20231073/assets/img/backend_word.png',
+	'/~s20231073/assets/img/frontend_word.png',
+	'/~s20231073/assets/img/design_word.png',
+];
+
 export const PositionWish = [
 	'PM이 되려면...',
 	'BACKEND 개발자가 되려면...',

@@ -54,7 +54,7 @@ export const resultDummyData: PositionData[] = [
 			'색, 타이포그래피, 아이콘 등의 시각 기법을 이용해 레이아웃을 제작한다.',
 		],
 		tools: ['Figma'],
-		knowledge: ['??', '??'],
+		knowledge: ['반응형 디자인', '타이포그래피 원칙'],
 		skills: ['UX 디자인', '디자인 원칙', '프로토타이핑'],
 	},
 ];
