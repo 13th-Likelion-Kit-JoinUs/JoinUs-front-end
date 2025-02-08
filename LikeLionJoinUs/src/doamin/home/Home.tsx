@@ -25,8 +25,8 @@ const Home = () => {
 			</div>
 			<div className="flex justify-center m-8">
 				<Link to="/question">
-					<div className="bg-[url('assets/img/ballon_box.png')] w-[7rem] h-[8rem] bg-cover flex flex-col items-center justify-center pb-4">
-						<div className="text-[0.6rem]">
+					<div className="bg-[url('assets/img/ballon_box.png')] w-[8rem] h-[9rem] bg-cover flex flex-col items-center justify-center pb-4">
+						<div className="text-[0.8em]">
 							나는 어떤 <br />
 							아기사자가 될까?
 						</div>
@@ -36,7 +36,7 @@ const Home = () => {
 						</div>
 					</div>
 				</Link>
-				<div className="bg-[url('assets/img/main_lion.png')] w-[8rem] h-[11rem] bg-cover"></div>
+				<div className="bg-[url('assets/img/main_lion.png')] w-[10rem] h-[14rem] bg-cover"></div>
 			</div>
 			<div className="flex justify-center">
 				<Link to="/question">

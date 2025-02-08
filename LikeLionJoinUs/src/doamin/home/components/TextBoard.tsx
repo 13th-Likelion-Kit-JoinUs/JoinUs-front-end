@@ -7,7 +7,7 @@ type textProps = {
 const TextBoard = ({ text }: textProps): JSX.Element => {
 	return (
 		<div className="bg-[url('assets/img/ballon_wide.png')] w-[23rem] h-[7.5rem] bg-cover flex flex-row items-center justify-center">
-			<div className="text-[0.8em] w-[14rem] h-[2rem]">{text} </div>
+			<div className="text-[1em] w-[14rem]">{text} </div>
 			<div className="bg-[url('assets/img/right_arrow_black.png')] rotate-90 w-[0.6rem] h-[0.9rem] bg-cover ml-10 mt-4"></div>
 		</div>
 	);
