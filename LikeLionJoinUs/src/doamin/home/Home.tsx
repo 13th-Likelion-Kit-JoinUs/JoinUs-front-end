@@ -16,11 +16,11 @@ const Home = () => {
 					적성 고민 중인 당신을 위한
 				</div>
 				<div className="flex-col text-center">
-					<div className="text-[1.6em]">
-						<span className="text-[#01A0D2]">아기사자</span>
-						<span className="text-[#FF7711]">트랙</span>
-					</div>
-					<div className="text-[1.6em]">유형 테스트</div>
+					<img
+						className="w-[22rem] m-1 p-1"
+						src="public/assets/img/sub_title.png"
+						alt="title"
+					/>
 				</div>
 			</div>
 			<div className="flex justify-center m-8">
