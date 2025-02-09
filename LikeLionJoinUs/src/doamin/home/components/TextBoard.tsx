@@ -4,7 +4,7 @@ type textProps = {
 
 const TextBoard = ({ text }: textProps): JSX.Element => {
 	return (
-		<div className="bg-[url('/~s20231073/assets/img/ballon_wide.png')]  w-[23rem] h-[7.5rem] bg-cover flex flex-row items-center justify-center">
+		<div className="bg-[url('/~s20231073/assets/img/ballon_wide.png')]  w-[20rem] h-[6.4rem] bg-cover flex flex-row items-center justify-center">
 			<div className="text-[1em] w-[14rem]">
 				{text.split('\n').map((line, index) => (
 					<span key={index}>
