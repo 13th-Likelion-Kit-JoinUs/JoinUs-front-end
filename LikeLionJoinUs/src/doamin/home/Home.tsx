@@ -26,10 +26,10 @@ const Home = () => {
 			<div className="flex justify-center m-8">
 				<div
 					className="bg-[url('/~s20231073/assets/img/ballon_box.png')] 
-                w-[7rem] h-[8rem] sm:w-[9rem] sm:h-[10rem] md:w-[11rem] md:h-[12rem] 
-                bg-cover flex flex-col items-center justify-center pb-4"
+                w-[9rem] h-[10rem] sm:w-[9rem] sm:h-[10rem] md:w-[11rem] md:h-[12rem] 
+                bg-cover flex flex-col items-center justify-center pb-6"
 				>
-					<div className="text-[0.3em] sm:text-[0.4em] md:text-[0.5em]">
+					<div className="text-[0.9em] p-2 ">
 						나는 어떤 <br />
 						아기사자가 될까?
 					</div>
@@ -41,7 +41,7 @@ const Home = () => {
 					>
 						<span
 							className="bg-[url('/~s20231073/assets/img/right_arrow_white.png')] 
-                        w-[0.4rem] h-[0.4rem] sm:w-[0.5rem] sm:h-[0.5rem] md:w-[0.6rem] md:h-[0.6rem] 
+                        w-[0.5rem] h-[0.6rem] sm:w-[0.5rem] sm:h-[0.5rem] md:w-[0.6rem] md:h-[0.6rem] 
                         bg-cover mr-1"
 						></span>
 						<span>테스트</span>
