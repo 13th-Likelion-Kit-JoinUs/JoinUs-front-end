@@ -18,7 +18,7 @@ const Home = () => {
 				<div className="flex-col text-center">
 					<img
 						className="w-[22rem] m-1 p-1"
-						src="public/assets/img/sub_title.png"
+						src="/~s20231073/assets/img/sub_title.png"
 						alt="title"
 					/>
 				</div>
