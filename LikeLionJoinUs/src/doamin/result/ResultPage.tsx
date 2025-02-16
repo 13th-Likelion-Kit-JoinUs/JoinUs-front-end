@@ -62,23 +62,27 @@ const ResultPage = () => {
 
 						<BarChart scores={scores} />
 
-						<BluePalmUp text={`${Position[maxIndex]}형 아기사자는?`} />
-						<div className="mx-3 mt-2">
-							{data.abilities.map((ability, index) => (
-								<InfoListItem key={index} label="" items={[ability]} />
-							))}
+						<div className="flex flex-col items-start">
+							<BluePalmUp text={`${Position[maxIndex]}형 아기사자는?`} />
+							<div className="mx-3 mt-2">
+								{data.abilities.map((ability, index) => (
+									<InfoListItem key={index} label="" items={[ability]} />
+								))}
+							</div>
 						</div>
 
-						<BluePalmUp text={PositionWish[maxIndex]} />
-						<div className="ml-3 mt-2">
-							<InfoListItem label="툴" items={data.tools} />
-							<InfoListItem label="역량" items={data.knowledge} />
-							<InfoListItem label="기술" items={data.skills} />
+						<div className="flex flex-col items-start my-6">
+							<BluePalmUp text={PositionWish[maxIndex]} />
+							<div className="ml-3 mt-2">
+								<InfoListItem label="툴" items={data.tools} />
+								<InfoListItem label="역량" items={data.knowledge} />
+								<InfoListItem label="기술" items={data.skills} />
+							</div>
 						</div>
 
-						<div className="flex items-start">
+						<div className="flex items-start my-6">
 							<div>
-								<BluePalmUp text="나랑 안맞는 트랙?" />
+								<BluePalmUp text="나랑 안 맞는 트랙?" />
 								<div className="ml-3 mt-2">
 									<InfoListItem
 										label=""
