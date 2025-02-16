@@ -82,7 +82,7 @@ const ResultPage = () => {
 
 						<div className="flex items-start my-6">
 							<div>
-								<BluePalmUp text="나랑 안맞는 트랙?" />
+								<BluePalmUp text="나랑 안 맞는 트랙?" />
 								<div className="ml-3 mt-2">
 									<InfoListItem
 										label=""
