@@ -3,7 +3,7 @@ export const Logo = () => (
     <img
       src="/~s20231073/assets/img/likelion_logo.png"
       alt="멋사 로고"
-      className="w-1/4 h-auto object-cover"
+      className="h-auto object-cover small:w-[80px]"
     />
   </div>
 );
