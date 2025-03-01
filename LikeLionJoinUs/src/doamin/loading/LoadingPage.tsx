@@ -1,6 +1,6 @@
-import TextBoard from '../home/components/TextBoard';
-import { useNavigate } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
+import TextBoard from "../home/components/TextBoard";
+import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 type scoretype = {
 	scorePlanning: number;
@@ -34,7 +34,7 @@ const LoadingPage = () => {
 	return (
 		<div className="flex flex-col h-screen items-center justify-around">
 			<img
-				className="w-[12rem] h-[12rem]"
+				className="w-[12rem] h-auto medium:w-[18rem] tablet:w-[25rem]"
 				src="/~s20231073/assets/img/loading_lion.gif"
 				alt="loading_lion"
 			/>
