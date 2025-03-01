@@ -18,7 +18,7 @@ const Home = () => {
 				<div className="flex flex-col text-center justify-center items-center">
 					<img
 						className="w-[22rem] m-1 p-1 medium:w-[30rem] tablet:w-[40rem]"
-						src="public/assets/img/sub_title.png"
+						src="/~s20231073/assets/img/sub_title.png"
 						alt="title"
 					/>
 				</div>
