@@ -19,7 +19,9 @@ const Palms = ({ progressNum }: PalmInfo): JSX.Element => {
 		);
 	});
 
-	return <div className="flex flex-wrap justify-center">{palms}</div>;
+	return (
+		<div className="flex flex-wrap justify-center items-center">{palms}</div>
+	);
 };
 
 export default Palms;

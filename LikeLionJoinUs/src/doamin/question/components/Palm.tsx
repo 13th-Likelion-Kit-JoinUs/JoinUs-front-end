@@ -2,7 +2,7 @@ export const BluePalm = () => {
 	return (
 		<img
 			src="assets/img/blue_palm.svg"
-			className="w-[25px] h-auto medium:w-[30px] tablet:w-[38px]"
+			className="w-[23px] h-auto mx-1 medium:w-[30px] tablet:w-[38px] rotate-90"
 		/>
 		// <div className="w-[17px] h-[17px] bg-[url('/~s20231073/assets/img/blue_palm.svg')] bg-no-repeat p-3"></div>
 	);
@@ -12,7 +12,7 @@ export const GrayPalm = () => {
 	return (
 		<img
 			src="assets/img/gray_palm.svg"
-			className="w-[25px] h-auto medium:w-[30px] tablet:w-[38px]"
+			className="w-[23px] h-auto mx-1 medium:w-[30px] tablet:w-[38px] rotate-90"
 		/>
 		// <div className="w-[22px] h-[22px] bg-[url('/~s20231073/assets/img/gray_palm.svg')] p-3"></div>
 	);

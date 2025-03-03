@@ -3,7 +3,7 @@ import TextBoard from "./components/TextBoard";
 
 const Home = () => {
 	return (
-		<div className="min-h-screen flex flex-col items-center justify-evenly font-NeoDunggeunmoPro">
+		<div className="min-h-screen flex flex-col items-center justify-evenly font-NeoDunggeunmoPro bg-[#f9f9f9]">
 			<div className="flex flex-col w-[100%]">
 				<div className="flex justify-center items-center mt-10 mb-6">
 					<img
@@ -17,8 +17,13 @@ const Home = () => {
 				</div>
 				<div className="flex flex-col text-center justify-center items-center">
 					<img
-						className="w-[22rem] m-1 p-1 medium:w-[30rem] tablet:w-[40rem]"
-						src="/~s20231073/assets/img/sub_title.png"
+						className="w-[14rem] m-1 p-1 medium:w-[18rem] tablet:w-[24rem]"
+						src="/~s20231073/assets/img/subtitle1.svg"
+						alt="title"
+					/>
+					<img
+						className="w-[12rem] m-1 p-1 medium:w-[16rem] tablet:w-[22rem]"
+						src="/~s20231073/assets/img/subtitle2.svg"
 						alt="title"
 					/>
 				</div>
@@ -58,7 +63,9 @@ const Home = () => {
 			</div>
 			<div className="flex justify-center">
 				<Link to="/question">
-					<TextBoard text="멋쟁이사자처럼 동아리에서 초대장을 보내왔다!!" />
+					<TextBoard
+						text={`멋쟁이사자처럼 동아리에서 \n 초대장을 보내왔다!!`}
+					/>
 				</Link>
 			</div>
 		</div>
