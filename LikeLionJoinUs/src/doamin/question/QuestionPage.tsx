@@ -1,7 +1,7 @@
-import Question from './components/Question';
-import ChoiceBoard from './components/ChoiceBoard';
-import Palms from './components/Pamls';
-import useQuestionState from './utils/useQuestionState';
+import Question from "./components/Question";
+import ChoiceBoard from "./components/ChoiceBoard";
+import Palms from "./components/Pamls";
+import useQuestionState from "./utils/useQuestionState";
 
 const QuestionPage = () => {
 	const { questions, currentStep, handleChoices } = useQuestionState();
@@ -11,7 +11,7 @@ const QuestionPage = () => {
 	}
 
 	return (
-		<div className="flex flex-col items-center justify-around h-screen p-6">
+		<div className="flex flex-col items-center justify-around h-screen p-6  bg-[#f9f9f9]">
 			<Palms progressNum={questions[currentStep].step} />
 			<Question data={questions[currentStep].question} />
 			<div>
