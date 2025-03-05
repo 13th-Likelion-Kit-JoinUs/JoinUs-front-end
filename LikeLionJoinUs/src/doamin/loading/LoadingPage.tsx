@@ -34,7 +34,7 @@ const LoadingPage = () => {
 	return (
 		<div className="flex flex-col h-screen items-center justify-around  bg-[#f9f9f9]">
 			<img
-				className="w-[12rem] h-auto medium:w-[18rem] tablet:w-[25rem]"
+				className="w-[12rem] h-auto medium:w-[18rem] tablet:w-[25rem] mt-[10rem]"
 				src="/~s20231073/assets/img/loading_lion.gif"
 				alt="loading_lion"
 			/>

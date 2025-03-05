@@ -15,7 +15,7 @@ const ChoiceBoard = ({ data, onClick }: message): JSX.Element => {
 				alt=""
 			/>
 			{/* <span className="bg-[url('/~s20231073/assets/img/right_arrow_black.png')] w-[0.5rem] h-[0.7rem] bg-cover mr-4 medium:w-[1.2rem]"></span> */}
-			<div className="text-[0.8em] w-[16rem] medium:w-[20rem] medium:text-[1em] tablet:w-[23rem] tablet:text-[1.2em]">
+			<div className="text-[0.8em] w-[16rem] medium:w-[20rem] medium:text-[1em] tablet:w-[23rem] tablet:text-[1.2em] break-keep">
 				{data}
 			</div>
 		</div>
