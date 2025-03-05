@@ -19,6 +19,13 @@ export const PositionWord = [
 	'/~s20231073/assets/img/design_word.png',
 ];
 
+export const Word = [
+	'/~s20231073/assets/img/기획력.png',
+	'/~s20231073/assets/img/분석력.png',
+	'/~s20231073/assets/img/실행력.png',
+	'/~s20231073/assets/img/창의력.png',
+];
+
 export const PositionWish = [
 	'PM이 되려면...',
 	'BACKEND 개발자가 되려면...',
