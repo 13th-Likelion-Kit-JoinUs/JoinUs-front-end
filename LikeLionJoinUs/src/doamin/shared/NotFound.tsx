@@ -1,14 +1,14 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 const NotFound = () => {
 	const navigate = useNavigate();
 
 	const goHome = () => {
-		navigate('/');
+		navigate("/");
 	};
 
 	return (
-		<div className="flex flex-col items-center justify-center h-screen bg-gray-100 text-center">
+		<div className="flex flex-col items-center justify-center h-screen  bg-[#f9f9f9] text-center">
 			<h1 className="text-9xl font-bold text-gray-800">404</h1>
 			<p className="text-xl text-gray-600 mt-4">Page Not Found</p>
 			<button

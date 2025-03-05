@@ -1,4 +1,4 @@
-import { BluePalm, GrayPalm } from './Palm';
+import { BluePalm, GrayPalm } from "./Palm";
 
 type PalmInfo = {
 	progressNum: number;
@@ -11,7 +11,7 @@ const Palms = ({ progressNum }: PalmInfo): JSX.Element => {
 			<div
 				key={index}
 				className={`${
-					isOdd ? 'mt-4' : 'mb-4'
+					isOdd ? "mt-4" : "mb-4"
 				} flex justify-center items-center`}
 			>
 				{index < progressNum ? <BluePalm /> : <GrayPalm />}
@@ -19,7 +19,9 @@ const Palms = ({ progressNum }: PalmInfo): JSX.Element => {
 		);
 	});
 
-	return <div className="flex flex-wrap justify-center">{palms}</div>;
+	return (
+		<div className="flex flex-wrap justify-center items-center">{palms}</div>
+	);
 };
 
 export default Palms;

@@ -4,15 +4,8 @@ type QuestionProps = {
 
 const Question = ({ data }: QuestionProps): JSX.Element => {
 	return (
-		<div className="m-3 text-[1.2em] w-[18rem]">
-			<h1>
-				{data.split('\n').map((line, index) => (
-					<span key={index}>
-						{line}
-						<br />
-					</span>
-				))}
-			</h1>
+		<div className="m-3 text-[1.2em] w-[18rem] medium:w-[25rem] medium:text-[1.5em] tablet:w-[28rem] tablet:text-[2rem]">
+			<h1>{data}</h1>
 		</div>
 	);
 };
