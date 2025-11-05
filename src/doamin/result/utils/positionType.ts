@@ -6,24 +6,24 @@ export const PositionComment = [
 ];
 
 export const PositionImage = [
-  './assets/img/PM_lion.png',
-  './assets/img/backend_lion.png',
-  './assets/img/frontend_lion.png',
-  './assets/img/desinger_lion.png',
+  '/assets/img/PM_lion.png',
+  '/assets/img/backend_lion.png',
+  '/assets/img/frontend_lion.png',
+  '/assets/img/desinger_lion.png',
 ];
 
 export const PositionWord = [
-  './assets/img/PM_word.png',
-  './assets/img/backend_word.png',
-  './assets/img/frontend_word.png',
-  './assets/img/design_word.png',
+  '/assets/img/PM_word.png',
+  '/assets/img/backend_word.png',
+  '/assets/img/frontend_word.png',
+  '/assets/img/design_word.png',
 ];
 
 export const Word = [
-  './assets/img/기획력.png',
-  './assets/img/분석력.png',
-  './assets/img/실행력.png',
-  './assets/img/창의력.png',
+  '/assets/img/기획력.png',
+  '/assets/img/분석력.png',
+  '/assets/img/실행력.png',
+  '/assets/img/창의력.png',
 ];
 
 export const PositionWish = [
