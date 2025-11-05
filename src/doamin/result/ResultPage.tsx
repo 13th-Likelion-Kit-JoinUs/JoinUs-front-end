@@ -41,7 +41,7 @@ const ResultPage = () => {
             <ResultTitle index={maxIndex} />
 
             <div className='flex flex-col items-center justify-center mt-2'>
-              <div className="bg-[url('assets/img/balloon_box.png')] w-full bg-contain bg-no-repeat bg-center flex flex-col items-center justify-center pb-2 mt-7 -mb-5 small:max-w-[90%] small:h-[65px] medium:max-w-[70%] medium:h-[80px] tablet:max-w-[60%] tablet:h-[100px] laptop:max-w-[30%] laptop:h-[120px]">
+              <div className="bg-[url('./assets/img/balloon_box.png')] w-full bg-contain bg-no-repeat bg-center flex flex-col items-center justify-center pb-2 mt-7 -mb-5 small:max-w-[90%] small:h-[65px] medium:max-w-[70%] medium:h-[80px] tablet:max-w-[60%] tablet:h-[100px] laptop:max-w-[30%] laptop:h-[120px]">
                 <div className='text-[11px] mb-5 small:text-[11px] medium:text-[13px] tablet:text-[17px] tablet:mb-7 laptop:mb-8 laptop:text-[20px]'>
                   {PositionComment[maxIndex]}
                 </div>

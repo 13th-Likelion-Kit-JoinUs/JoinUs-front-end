@@ -12,7 +12,7 @@ export const ResultTitle = ({ index }: { index: number }) => (
         className='h-[32px] object-cover small:h-[24px] medium:h-[28px] tablet:h-[36px] laptop:h-[40px]'
       />
       <img
-        src='assets/img/lion_word.png'
+        src='./assets/img/lion_word.png'
         className='h-[32px] object-cover small:h-[24px] medium:h-[28px] tablet:h-[36px] laptop:h-[40px]'
       />
     </div>
