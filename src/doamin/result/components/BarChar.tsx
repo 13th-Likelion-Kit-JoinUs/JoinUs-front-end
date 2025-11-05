@@ -31,7 +31,7 @@ export default function BarChart({ scores }: BarChartProps) {
           <div
             className='flex justify-center space-x-1 p-1.5 medium:p-2 tablet:p-2 labtop:p-2'
             style={{
-              backgroundImage: `url('assets/img/box.png')`,
+              backgroundImage: `url('./assets/img/box.png')`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat',

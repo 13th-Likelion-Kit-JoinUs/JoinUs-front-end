@@ -35,7 +35,7 @@ const LoadingPage = () => {
     <div className='flex flex-col h-screen items-center justify-around  bg-[#f9f9f9]'>
       <img
         className='w-[12rem] h-auto medium:w-[18rem] tablet:w-[25rem] mt-[10rem]'
-        src='assets/img/loading_lion.gif'
+        src='./assets/img/loading_lion.gif'
         alt='loading_lion'
       />
       <TextBoard text='...오잉 ? 아기사자의 모습이!!!' />
